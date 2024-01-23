@@ -43,7 +43,7 @@ nav {
     align-items: center;
     border-bottom: 2px solid #54cedc;
     position: sticky;
-    backdrop-filter: blur(100px);
+    background: #25193e;
     border-bottom: 3px solid #54cedc;z-index: 99;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
@@ -64,6 +64,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     font-size: 2rem;
+    font-weight: 600;
 }
 .logo a:hover{
     color: aliceblue;
@@ -131,11 +132,8 @@ footer{
     position: absolute;
     left: 0;
     bottom: -10px;
-
     background-color: aliceblue;
-=======
     background-color: #bebebe;
-
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -152,11 +150,8 @@ footer{
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-
     color: aliceblue;
-=======
     color: #bebebe;
-
     padding-left: 5px;
 }
 .footer-container{
@@ -184,9 +179,7 @@ footer{
 }
 .footer-col .footer-social-links a:hover{
     color: grey;
-
     background-color: #ffffff;
-=======
     background-color: #bebebe;
 
 }

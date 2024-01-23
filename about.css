@@ -45,10 +45,9 @@ nav {
     align-items: center;
     border-bottom: 2px solid #54cedc;
     position: sticky;
-    backdrop-filter: blur(100px);
-    border-bottom: 3px solid #54cedc;
-    z-index: 99;
-    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.5);
+    background: #25193e;
+    border-bottom: 3px solid #54cedc;z-index: 99;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
 
 nav a {
@@ -67,6 +66,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     font-size: 2rem;
+    font-weight: 600;
 }
 
 .logo a:hover {
@@ -365,5 +365,6 @@ section {
     padding: 20px; /* Add padding to create some space around the content */
     border-radius: 10px; /* Optional: Add border-radius for rounded corners */
     margin: 30px;
-    
+    border: 3px solid #54cedc;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
