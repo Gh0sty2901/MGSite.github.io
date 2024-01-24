@@ -105,6 +105,67 @@ nav a:hover{
     }
 }
 
+/* Start of Layout Code */
+
+section {
+    position: relative;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://images.unsplash.com/photo-1544652478-6653e09f18a2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    z-index: -1;
+    width: 2000px;
+    height: 1000px;
+}
+
+.hero {
+    margin-top: 250px;
+    text-align: center;
+    color: #54cedc;
+    height: 500px;
+    position: relative;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 15px;
+    padding: .2em .2em;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #54cedc;
+    transform: scaleX(0); 
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cta-button:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom left;
+}
+
+/* End of Layout Code */
+
 footer{
     background-color: #25193e;
     padding: 70px 0;
