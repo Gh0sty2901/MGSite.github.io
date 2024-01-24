@@ -40,11 +40,10 @@ nav {
     align-items: center;
     border-bottom: 2px solid #54cedc;
     position: sticky;
-    backdrop-filter: blur(100px);
+    background: #25193e;
     border-bottom: 3px solid #54cedc;z-index: 99;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
-
 nav a {
     color: #54cedc;
 }
@@ -61,6 +60,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     font-size: 2rem;
+    font-weight: 600;
 }
 .logo a:hover{
     color: aliceblue;
@@ -190,33 +190,48 @@ footer{
     background: #25193e;
     margin: 10%;
     border-radius: 5%;
-    outline: #54cedc solid 2px
-}.contact .content{
+    outline: #00bcD4 solid 4px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
+
+.contact .content{
     max-width: 800px;
     text-align: center;
     
-}.contact .content h2{
+}
+
+.contact .content h2{
     font-size: 36px;
     font-weight: 500;
     color:#ffffff
-}.contact .content p{
+}
+
+.contact .content p{
     font-weight: 300;
     color:#ffffff
-}.container{
+}
+
+.container{
     width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top:30px;
-}.container .contactInfo{
+}
+
+.container .contactInfo{
     width: 50%;
     display: flex;
     flex-direction: column;
-}.container .contactInfo .box{
+}
+
+.container .contactInfo .box{
     position:relative;
     padding: 20px 0;
     display:flex;
-}.container .contactInfo .box .icon{
+}
+
+.container .contactInfo .box .icon{
     min-width: 60px;
     height: 60px;
     background: #ffffff;
@@ -225,29 +240,44 @@ footer{
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
-}.container .contactInfo .box .text{
+}
+
+.container .contactInfo .box .text{
     display:flex;
     margin-left: 20px;
     font-size: 16px;
     color:#ffffff;
     flex-direction: column;
     font-weight: 300;
-}.container .contactInfo .box .text h3{
+}
+
+.container .contactInfo .box .text h3{
     color: #00bcD4;
     font-weight: 500    ;
-}.contactForm{
+}
+
+.contactForm{
     width: 40%;
     padding: 40px;
-    background:#ffffff
-}.contactForm h2{
+    background:#ffffff;
+    border: 4px solid #00bcD4;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
+
+.contactForm h2{
     font-size: 30px;
     color: #333;
     font-weight: 500;
-}.contactForm .inputBox{
+}
+
+.contactForm .inputBox{
     position:relative;
     width:100%;
     margin-top: 10px;
-}.contactForm .inputBox input,.contactForm .inputBox textarea{
+}
+
+.contactForm .inputBox input,.contactForm .inputBox textarea{
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -256,7 +286,8 @@ footer{
     border-bottom: 2px solid #333;
     outline: none;
     resize: none;
-}.contactForm .inputBox span{
+}
+.contactForm .inputBox span{
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -266,22 +297,37 @@ footer{
     transition:0.5s;
     color:#666
    
-} .contactForm .inputBox input:focus ~ span,
+} 
+
+.contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span{
     color: #e91e63;
     font-size:12px;
     transform:translateY(-20px);
-}.contactForm .inputBox input[type="submit"]{
+}
+
+.contactForm .inputBox input[type="submit"]{
     width:100px;
     background:#00bcd4;
-    color: #fff;
+    color: black;
     border:none;
     cursor:pointer;
     padding:10px;
     font-size:18px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
 }
+.contactForm .inputBox input[type="submit"]:hover{
+    cursor: pointer;
+    color: #00bcD4;
+    background-color: #25193e;
+    transition: all 0.3s ease;
+    border: 2px solid #00bcD4;
+}
+
 @media(max-width:991px){
     .contact{
         padding:50px;
@@ -301,11 +347,37 @@ footer{
         margin-bottom: 30px;
     }
 }
+
 @media(max-width: 574px){
     .footer-col{
         width: 100%;
     }
 }
+
+.fb-page{
+    text-align: center;
+    align-items: center;
+    width: 1000px;
+    background-color: #25193e;
+    border-radius: 15px;
+    border: 4px solid #00bcD4;
+    padding: 20px 20px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+}
+
+.fb-page data{
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    background-color: #25193e;
+    border-radius: 15px;
+    border: 4px solid #00bcD4;
+    padding: 20px 20px;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
+
+
+}
+
 footer {
     clear: both;
   }
