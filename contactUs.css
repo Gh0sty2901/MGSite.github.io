@@ -310,22 +310,22 @@ footer{
 
 .contactForm .inputBox input[type="submit"]{
     width:100px;
-    background:#00bcd4;
-    color: black;
+    background: linear-gradient(270deg,#00bcD4, #2f6bcd);
+    color: #666;
     border:none;
     cursor:pointer;
     padding:10px;
     font-size:18px;
     border-radius: 15px;
-    border: 2px solid black;
+    border: 2px solid #666;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
 }
 .contactForm .inputBox input[type="submit"]:hover{
     cursor: pointer;
-    color: #00bcD4;
-    background-color: #25193e;
-    transition: all 0.3s ease;
-    border: 2px solid #00bcD4;
+    color: white;
+    background: linear-gradient(270deg,#bc2fcd, #3d085d);
+    transition: all 0.5s ease;
+    border: 2px solid white;
 }
 
 @media(max-width:991px){
@@ -357,7 +357,7 @@ footer{
 .fb-page{
     text-align: center;
     align-items: center;
-    width: 1000px;
+    width: 400px;
     background-color: #25193e;
     border-radius: 15px;
     border: 4px solid #00bcD4;
@@ -365,18 +365,6 @@ footer{
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
 }
 
-.fb-page data{
-    text-align: center;
-    align-items: center;
-    width: 600px;
-    background-color: #25193e;
-    border-radius: 15px;
-    border: 4px solid #00bcD4;
-    padding: 20px 20px;
-    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 10);
-
-
-}
 
 footer {
     clear: both;
