@@ -271,8 +271,23 @@ section {
     margin-top: 50px;
     font-size: 29px;
 }
+.section-1 .games{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4.5rem;
+    text-align: center;
+}.row{
+    position: relative;
+    cursor: pointer;
+}.row img{
+    width:100%;
+    height: auto;
+    margin-bottom: 15px;
+}
 
-section {
+.section {
     background-color: rgba(114, 100, 100, 0.548); /* Adjust the opacity as needed */
     padding: 20px; /* Add padding to create some space around the content */
     border-radius: 10px; /* Optional: Add border-radius for rounded corners */
