@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="gallery.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Mapua Gaming Society</title>
@@ -43,16 +43,63 @@
         });
 
     </script>
+    <br>
+    <br>
+    <br>
+
+<!-- Event Gallery - Lim and Yu-->
+<div class="gallery-wrapper">
+
+        <h2>Year</h2>
+    <div class="gallery-container">
+        <div class="gallery-image"><img src="Png.png" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+    </div>
+
+    <h2>Year</h2>
+    <div class="gallery-container">
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+    </div>
+
+    <h2>Year</h2>
+    <div class="gallery-container">
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+        <div class="gallery-image"><img src="#" alt=""></div>
+    </div>
+
+    <div class="popup-image">
+        <span>&times;</span>
+        <img src="Png.png" alt="">
+    </div>
+</div>
+
+
+<!-- This Script allows the Images to be clicked on and expand Lim and Yu-->
+<script>
+
+document.querySelectorAll('.gallery-container img').forEach(img =>{
+    img.onclick = () => {
+    document.querySelector('.popup-image').style.display = 'block';
+    document.querySelector('.popup-image img').src = img.getAttribute('src');
+    }
+});
+
+document.querySelector('.popup-image span').onclick = () =>{
+    document.querySelector('.popup-image').style.display = 'none';
+}
+</script>
 
 
     <br>
     <br>
     <br>
-    <br>
-    <br>
-
-
-
     <!--Footer - Lim -->
     <footer>
         <div class="footer-container">
