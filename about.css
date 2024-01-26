@@ -271,18 +271,44 @@ section {
     margin-top: 50px;
     font-size: 29px;
 }
-.section-1 .games{
+.games-row-1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 4.5rem;
     text-align: center;
-}.row{
+}
+.games-row-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4.5rem;
+    text-align: center;
+}
+.section-1 p{
+    color: white;
+}
+.section-1 h3{
+    font-size: 1.5rem;
+    color: #007bff;
+}
+.row{
     position: relative;
     cursor: pointer;
-}.row img{
+}
+.row img{
     width:100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.row2{
+    position: relative;
+    cursor: pointer;
+}
+.row2 img{
+    width: 100%;
     height: auto;
     margin-bottom: 15px;
 }
