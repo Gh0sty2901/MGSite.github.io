@@ -414,12 +414,6 @@ footer-line{
     height: 100%;
 }
 
-
-
-
-
-/* Event Images - Kyle and Yu */
-
 .back-to-top {
     visibility: visible;
     position: fixed;
@@ -440,6 +434,12 @@ footer-line{
     border: 2px solid white;
 }
 
+
+
+
+
+/* Event Images - Kyle and Yu */
+
 .gallery-wrapper{
     position: relative;
     width: 90%;
@@ -452,10 +452,10 @@ footer-line{
 }
 
 .gallery-wrapper h2{
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 600;
     color: white;
-    margin-top: 20px;
+    margin-top: 75px;
 }
 
 .gallery-wrapper .gallery-container{
@@ -467,8 +467,8 @@ footer-line{
 }
 
 .gallery-wrapper .gallery-container .gallery-image{
-    width: 350px;
-    height: 350px;
+    width: 325px;
+    height: 325px;
     border-radius: 50px;
     border: 3px solid #2fb5cd;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
@@ -476,7 +476,31 @@ footer-line{
     cursor: pointer;
 }
 
-.gallery-wrapper .gallery-container .gallery-image img{
+.gallery-wrapper .gallery-container .gallery-image-rect{
+    width: 325px;
+    height: 225px;
+    border-radius: 50px;
+    border: 3px solid #2fb5cd;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
+    margin-top: 45px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-wrapper .gallery-container .gallery-image-portrait{
+    width: 225px;
+    height: 325px;
+    border-radius: 50px;
+    border: 3px solid #2fb5cd;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.gallery-wrapper .gallery-container .gallery-image img, 
+.gallery-image-portrait img, 
+.gallery-image-rect img{
     height: 100%;
     width: 100%;
     object-fit: cover;
