@@ -25,11 +25,10 @@ body {
     background-attachment: fixed;
 }
 
-a, a:hover {
+a, a:hover{
     text-decoration: none;
 }
-
-.logo img {
+.logo img{
     width: 40px;
     margin-right: 30px;
     margin-left: 10px;
@@ -54,7 +53,7 @@ nav a {
     color: #54cedc;
 }
 
-nav a:hover {
+nav a:hover{
     color: aliceblue;
 }
 
@@ -68,8 +67,7 @@ nav a:hover {
     font-size: 2rem;
     font-weight: 600;
 }
-
-.logo a:hover {
+.logo a:hover{
     color: aliceblue;
 }
 
@@ -78,34 +76,31 @@ nav a:hover {
     align-items: center;
     list-style: none;
 }
-
-.menu li {
+.menu li{
     padding: 15px 20px;
     font-size: 1.2rem;
 }
-
 .toggle {
     font-size: 2rem;
     display: none;
 }
 
 @media screen and (max-width: 600px) {
-    nav {
+    nav{
         display: block;
         position: relative;
         padding: 15px 20px;
     }
 
-    .menu {
+    .menu{
         margin-top: 15px;
         display: none;
     }
 
-    .menu.active, .toggle {
+    .menu.active, .toggle{
         display: block;
     }
-
-    .toggle {
+    .toggle{
         position: absolute;
         top: 21px;
         right: 20px;
@@ -262,7 +257,7 @@ section {
     margin-top: 50px;
     font-size: 29px;
 }
-.games-row-1{
+.logo-row-1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
@@ -270,7 +265,7 @@ section {
     margin-top: 4.5rem;
     text-align: center;
 }
-.games-row-2{
+.logo-row-2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
@@ -280,10 +275,14 @@ section {
 }
 .section-1 p{
     color: white;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
 }
 .section-1 h3{
     font-size: 1.5rem;
     color: #007bff;
+    margin-bottom: 10px;
 }
 .row{
     position: relative;
@@ -319,6 +318,10 @@ section {
     border: 3px solid #54cedc;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
+
+
+
+
 footer{
     background-color: #25193e;
     padding: 70px 0;
@@ -413,57 +416,4 @@ footer {
   }
 footer-line{
     clear: both;
-}
-
-nav {
-    padding: 15px 20px;
-}
-
-.menu li {
-    padding: 10px 15px;
-    font-size: 1rem;
-}
-
-.officers-container {
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-@media (min-width: 768px) {
-    .officer {
-        max-width: 45%;
-    }
-}
-
-@media (max-width: 767px) {
-    .officer {
-        max-width: 100%;
-    }
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-}
-
-.team-image {
-    margin: 0;
-}
-
-.footer-col {
-    width: 100%;
-    padding: 0 15px;
-    margin-bottom: 30px;
-}
-
-@media (min-width: 768px) {
-    .footer-col {
-        width: 25%;
-    }
-}
-
-.footer-col .footer-social-links a {
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
 }
