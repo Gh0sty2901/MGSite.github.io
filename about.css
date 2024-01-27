@@ -414,3 +414,56 @@ footer {
 footer-line{
     clear: both;
 }
+
+nav {
+    padding: 15px 20px;
+}
+
+.menu li {
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.officers-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .officer {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .officer {
+        max-width: 100%;
+    }
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.team-image {
+    margin: 0;
+}
+
+.footer-col {
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .footer-col {
+        width: 25%;
+    }
+}
+
+.footer-col .footer-social-links a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
