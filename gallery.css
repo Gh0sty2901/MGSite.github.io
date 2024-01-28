@@ -444,6 +444,7 @@ footer-line{
     position: relative;
     width: 90%;
     margin: auto;
+    margin-bottom: 65px;
     text-align: center;
     border-radius: 50px;
     background: #25193e;
@@ -455,7 +456,7 @@ footer-line{
     font-size: 4rem;
     font-weight: 600;
     color: white;
-    margin-top: 75px;
+    margin-top: 55px;
 }
 
 .gallery-wrapper .gallery-container{
@@ -467,8 +468,8 @@ footer-line{
 }
 
 .gallery-wrapper .gallery-container .gallery-image{
-    width: 325px;
-    height: 325px;
+    width: 290px;
+    height: 290px;
     border-radius: 50px;
     border: 3px solid #2fb5cd;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
@@ -507,7 +508,9 @@ footer-line{
     transition: .2s linear;
 }
 
-.gallery-wrapper .gallery-container .gallery-image:hover img{
+.gallery-wrapper .gallery-container .gallery-image:hover img,
+.gallery-image-portrait:hover img, 
+.gallery-image-rect:hover img{
     transform: scale(1.1);
 }
 
