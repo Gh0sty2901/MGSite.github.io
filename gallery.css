@@ -555,3 +555,13 @@ footer-line{
     }
 }
 
+.view-more{
+    margin-top: 120px;
+    color: white;
+    font-size: 30px;
+}
+
+.view-more:hover{
+    text-shadow: 3px 5px #7e7e7e;
+}
+
