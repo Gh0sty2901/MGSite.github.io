@@ -48,63 +48,57 @@
     <!-- Icons script - manguerra-->
     <script src="https://kit.fontawesome.com/857b4ef01d.js" crossorigin="anonymous"></script>
  
-    <section id="contact-id" class ="contact">
-        <div class ="content">
-            <h2>Contact Us!</h2>
-            <p>Here are ways for you to be able to contact us. Send us a message or ask us anything!</p>
-        </div>
+    <section class ="contact">
         <div class ="container">
-            <div class="contactInfo">
-                <div class="box">
-                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
-                    <div class="text">
-                        <h3>Address </h3>
-                        <p>Mapua Intramuros,658 Muralla St, Intramuros, Manila, 1002 Metro Manila, Philippines </p>
+            <h2>Contact Us!</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send Us a Message!</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST"> 
+                        <input type="hidden" name="access_key" value="fc0321f0-f9ba-446c-9a4d-39f16ed83d4c">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" value="Send">Send Message</button>
+                    </form>
+                </div>
+                <div class="contactInfo">
+                    <div class="box">
+                        
+                        <div class="text">
+                            <h3><i class="fa-solid fa-location-dot"></i>Address: </h3>
+                            <p>Mapua Intramuros,658 Muralla St, Intramuros, Manila, 1002 Metro Manila, Philippines </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <div class="text">
+                            <h3><i class="fa-solid fa-phone"></i>Social Medias: </h3>
+                            <p><i class='bx bxl-facebook-circle' style='color:#54cedc'></i>: @MapuaGamingSociety <br>
+                                <i class='bx bxl-instagram' style='color:#54cedc' ></i>: @mapua.gs<br>
+                                <i class='bx bxl-twitter' style='color:#00bcd4'  ></i>: @mapuags</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                      
+                        <div class="text">
+                            <h3><i class="fa-solid fa-inbox"></i>Email: </h3>
+                            <p>MapuaGamingSociety@gmail.com</p>
+                        </div>
                     </div>
                 </div>
-                <div class="box">
-                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
-                    <div class="text">
-                        <h3>Social Medias </h3>
-                        <p><i class='bx bxl-facebook-circle' style='color:#54cedc'></i>: @MapuaGamingSociety <br>
-                            <i class='bx bxl-instagram' style='color:#54cedc' ></i>: @mapua.gs<br>
-                            <i class='bx bxl-twitter' style='color:#00bcd4'  ></i>: @mapuags</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icon"><i class="fa-solid fa-inbox"></i></div>
-                    <div class="text">
-                        <h3>Email </h3>
-                        <p>MapuaGamingSociety@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="contactForm">
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="fc0321f0-f9ba-446c-9a4d-39f16ed83d4c">
-                    <h2>Send Us A Message</h2>
-                    <div class = "inputBox">
-                        <input type="text" name="name" required="required">
-                        <span>Full Name</span>
-                    </div>
-                    <div class = "inputBox">
-                        <input type="text" name="email" required="required">
-                        <span>Email</span>
-                    </div>
-                    <div class = "inputBox">
-                        <textarea name ="message" required="required"></textarea>
-                        <span>Your Message</span>
-                    </div>
-                    <div class="inputBox">
-                        <input type="submit" name="" value ="Send">
-                    </div>
-                </form>
             </div>
         </div>
 
     </section>
     <!--Script is to show the feed for the Facebook page of MGS.-manguerra -->
-    <center>
+  <center>
     <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="RF2JuPyW"></script>
         <div class="fb-page" data-href="https://www.facebook.com/mapuagamingsociety" 
@@ -126,18 +120,13 @@
                         <ul class="footer-list">
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
                         </ul>
                     </div>
                 <div class="footer-col">
                     <h4>Officers</h4>
                     <ul class="footer-list">
-                        <li><a href="about.html">Ray Giron</a></li>
-                        <li><a href="about.html">Ozel Pablo</a></li>
-                        <li><a href="about.html">Aaron Valentona</a></li>
-                        <li><a href="about.html">Vince Arellano</a></li>
-                        <li><a href="about.html">Laurenz Maliwat</a></li>
-                        <li><a href="about.html" style="color: white;">and More!!</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Developers</h4>
