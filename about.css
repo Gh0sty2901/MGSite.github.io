@@ -321,7 +321,7 @@ section {
 
 
 /* Back to top button*/
-.back-to-top {
+button.back-to-top {
     visibility: visible;
     position: fixed;
     bottom: 20px;
@@ -333,7 +333,7 @@ section {
     z-index: 99;
 } 
 
-.back-to-top:hover{
+button.back-to-top:hover{
     cursor: pointer;
     color: white;
     background: linear-gradient(270deg,#2fb5cd, #3d085d);
