@@ -328,7 +328,7 @@ footer{
     border: 2px solid white;
 }
 
-@media screen and (max-width:991px){
+@media (max-width:767px){
     .contact{
         padding:50px;
     }.container{
