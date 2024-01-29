@@ -151,7 +151,7 @@ nav a:hover{
     background: #1b1229;
     border-radius: 15px;
     transition: all .38s ease;
-    height: 400px;
+    height: 450px;
     box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 5);
 }
 
@@ -164,7 +164,7 @@ nav a:hover{
 
 .team-box h5{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     margin-bottom: 15px;
 }
@@ -188,8 +188,8 @@ nav a:hover{
     background: #25193e;
     border: 1px solid #54cedc;
     border-radius:100%;
-    width: 2%;
-    height: 8%;
+    width: 30px;
+    height: 30px;
     align-items: center;
     margin-left: 10px;
 }
@@ -197,6 +197,10 @@ nav a:hover{
 .Easter-Egg-wrapper {
     text-align: center;
     align-items: center;
+}
+
+.Easter-Egg-wrapper i {
+    width: auto;
 }
 /*Tootless*/
 
